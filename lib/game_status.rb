@@ -80,11 +80,12 @@ def winner(board)
   
   if index == FALSE
     return nil
-  else
+  end 
+  
     if board[index[0]] == "X"
       return "X"
     else
       return "O"
     end
-  end 
+  
 end  
