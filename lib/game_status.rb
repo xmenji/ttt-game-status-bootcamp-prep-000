@@ -68,7 +68,7 @@ def over?(board)
     
     return TRUE
   else
-    retun FALSE
+    return FALSE
   end
   
 end
