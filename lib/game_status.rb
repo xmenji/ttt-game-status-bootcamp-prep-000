@@ -66,7 +66,9 @@ def over?(board)
     draw?(board) ||
     full?(board) 
     
-    TRUE
+    return TRUE
+  else
+    retun FALSE
   end
   
 end
