@@ -39,6 +39,9 @@ def won?(board)
   end 
   
 end #end each statement
+
+retun FALSE
+
 end #end method won?
 
 def full?(board)
@@ -50,9 +53,9 @@ end
 def draw?(board)
   
   if !won?(board) && full?(board) 
-    TRUE
+    return TRUE
   elsif !won?(board) && !full?(board)
-    FALSE
+    return FALSE
   end
 
 end 
