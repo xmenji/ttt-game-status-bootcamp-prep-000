@@ -17,17 +17,5 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   
-  board.each do |i|
-    p1 = i[0]
-    p2 = i[1]
-    p3 = i[2]
-    
-    if p1 == "X" && p2 == "X" && p3 == "X"
-      return Array.new(i)
-    elsif p1 == "O" && p2 == "O" && p3 == "O"
-      return Array.new(i)
-    end 
-  end
   
-  return FALSE
 end
