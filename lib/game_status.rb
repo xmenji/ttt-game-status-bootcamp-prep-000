@@ -64,11 +64,13 @@ end
 
 def over?(board)
 
-  if won(board) ||
-    draw(board) ||
-    full(board) 
+  if won?(board) ||
+    draw?(board) ||
+    full?(board) 
     
     TRUE
   end
   
 end
+
+def winner(board)
