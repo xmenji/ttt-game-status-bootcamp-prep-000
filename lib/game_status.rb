@@ -38,3 +38,9 @@ def won?(board)
     FALSE
   end 
 end
+
+def full?(board)
+  
+  
+  
+end
