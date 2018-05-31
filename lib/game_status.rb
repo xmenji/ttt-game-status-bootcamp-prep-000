@@ -43,14 +43,7 @@ end #end method won?
 
 def full?(board)
   
-  board.each do |i|
-    
-    if i == " " || i == nil
-      FALSE
-    else
-      TRUE
-    end
-  end 
+  board.all? {|index| index == "X" || index == "O"}
   
 end
 
